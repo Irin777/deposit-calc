@@ -31,5 +31,5 @@ int check;
     if (srok >= 241) {
         sum+=(sum/100)*12;
     };
-    printf("Сумма вклада на момент окончания срока: \n%.0f\n ", sum);
+    printf("Deposit amount at the end: \n%.0f\n ", sum);
 }
