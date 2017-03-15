@@ -1,9 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
+int proverka(float srok,float sum){
+    if ((sum < 10000) || (srok < 0 || srok > 365)) {
+    return 1;
+    }
+    else return 0;
+}
 int main() {
 float srok, sum;
-	printf ("Enter the deposit amount ");
-    scanf ("%f", &sum);
-    printf ("Enter the deposit term ");
-    scanf ("%f", &srok);
+int check;
+	do {
+		printf ("Enter the deposit amount ");
+    	scanf ("%f", &sum);
+    	printf ("Enter the deposit term ");
+    	scanf ("%f", &srok);
+    	check=proverka(srok,sum);
+        if (check == 1) {
+            printf ("Invalid input\n");
+        };
+    } while (check);
 }
