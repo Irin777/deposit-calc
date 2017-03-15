@@ -2,8 +2,8 @@
 #include <stdlib.h>
 int main() {
 float srok, sum;
-	printf ("¬ведите cумму вклада (в рубл€х) ");
+	printf ("Enter the deposit amount ");
     scanf ("%f", &sum);
-    printf ("¬ведите срок вклада (в дн€х) ");
+    printf ("Enter the deposit term ");
     scanf ("%f", &srok);
 }
