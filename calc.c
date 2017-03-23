@@ -25,21 +25,21 @@ int main() {
     }
     if ((srok >= 31) && (srok < 121)) {
         if(sum <= 100000) {
-            sum + =(sum / 100) * 2;
+            sum +=(sum / 100) * 2;
         }
-        else (sum += (sum / 100) * 3;
+        else (sum += (sum / 100) * 3);
     }
     if ((srok >= 121) && (srok < 241)) {
-        if ((sum <= 100000) {
+        if ((sum <= 100000)) {
 	    sum += (sum / 100) * 6;
 	}
-	else (sum += (sum / 100) * 8;
+	else (sum += (sum / 100) * 8);
     }
     if (srok >= 241) {
         if (sum <= 100000) {
             sum += (sum / 100) * 12;
         }
-        else (sum += (sum / 100) * 15;
+        else (sum += (sum / 100) * 15);
     }
     printf("Deposit amount at the end: \n%.0f\n ", sum);
 }
